@@ -1,0 +1,114 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  background-color: black
+}
+
+.klass1 {
+height: 700px;
+background: url(china.jpg) no-repeat center;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  box-shadow: 0 -75px 50px -50px black inset;
+  
+}
+
+.klass2 {
+  height: 200px;
+  
+  background-color: black
+}
+
+.klass3 {
+height: 1000px;
+background: url(china2.jpg) no-repeat center;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  box-shadow: 0 75px 50px -50px black inset;
+}
+
+
+h1 {
+  animation: colorchange 10s infinite;
+  font-size: 6rem;
+  font-weight: 900
+}
+
+@keyframes colorchange
+{
+  0% {color: #277552;}
+  25% {color: #255C69;}
+  50% {color: #313C74;}
+  75% {color: #4B2D73}
+  100% {color: #277552;}
+}
+
+.navbar {
+  background-color: rgb(0,2,15)
+}
+.dropdown-menu {
+  background-color: black;
+}
+.dropdown-item {
+  color: white;
+}
+
+.col-12 {
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 20px
+
+}
+
+.card {
+  color: black;
+  margin: 10px;
+  max-height: 450px
+}
+
+.klass4 {
+  position: relative;
+  top: 100px;
+  font-family: "Ma Shan Zheng", cursive;
+}
+
+.card-text {
+  font-family: "Permanent Marker";
+}
+
+.button1 {
+  font-family: "Permanent Marker";
+  position: relative;
+  top: 380px;
+  padding: 20px;
+  border-radius: 60px
+}
+
+hr {
+  border: solid 2px rgb(0,123,255);
+  background-color: rgb(0,123,255);
+  max-width: 65px;
+  position: relative;
+  top: 380px;
+}
+
+.klass5 {
+  height: 200px;
+  background-color: black
+}
+
+@media (max-width: 600px) {
+  .klass21 {
+    font-size: 16px;
+    position: relative;
+    top: 40px;
+  }
+}
